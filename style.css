@@ -1,66 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;200;300;400;500;600;700&display=swap");
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(46, 46, 46);
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'M PLUS 1 Code', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #182628;
+	color: #f2f2f2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: "M PLUS 1 Code", sans-serif;
+}
+
+h1 {
+	font-size: 50px;
 }
 
 #game {
-    display: flex;
-    background-color: rgb(32, 32, 32);
+	display: flex;
+	background-color: #0e1617;
 }
 
 .card {
-  width: 160px;
-  height: 120px;
-  background-color: rgb(26, 26, 255);
-  border-left: solid rgb(19, 19, 160) 10px;
-  border-right: solid rgb(11, 11, 91) 10px;
-  border-top: solid rgb(61, 61, 200)10px;
-  border-bottom: solid rgb(20, 20, 89) 10px;
-  text-align: center;
-  font-size: 100px;
-  margin: 5px;
-  padding: 10px;
-  line-height: 120px;
-}
-.first-button {
-  background-color: rgb(24, 171, 24);
+	width: 150px;
+	height: 150px;
+	background-color: #57ba98;
+	border: 10px outset #3b945e;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 100px;
+	line-height: 150px;
+	margin: 5px;
+	padding: 10px;
 }
 
-.second-button {
-  background-color: rgb(190, 57, 37);
+.card-text {
+	font-size: 16px;
+	line-height: 20px;
 }
 
 .genre-column {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.card-data-question {
+	line-height: 30px;
+	font-size: 20px;
 }
 
 .genre-title {
-  background-color: rgb(26, 26, 255);
-  text-align: center;
-  font-size: 28px;
-  padding: 5px;
-  margin: 5px;
+	background-color: #57ba98;
+	text-align: center;
+	font-size: 28px;
+	padding: 5px;
+	margin: 5px;
 }
 
 .correct-answer {
-  background-color: rgb(186, 186, 24);
+	background-color: #fbff12;
+	color: #0e1617;
+	/* only !important to over write the js */
+	font-size: 100px !important;
+	line-height: 150px !important;
 }
 
 .wrong-answer {
-  background-color: rgb(221, 64, 56);
+	background-color: #bb0a21;
+	/* only !important to over write the js */
+	font-size: 100px !important;
+	line-height: 150px !important;
 }
 
 button {
-  margin: 5px;
+	margin: 3px;
+	color: #ffff;
+	background-color: #57ba98;
+	border-radius: 25px;
+	border: 2px solid #ffff;
+	padding: 2px 10px;
+	font-size: 16px;
 }
