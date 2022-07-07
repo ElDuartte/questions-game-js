@@ -1,0 +1,132 @@
+[
+	{
+		"genre": "WHO",
+		"questions": [
+			{
+				"question": "Who wrote the Harry Potter books?",
+				"answers": ["JK Rowling", "JRR Tolkien"],
+				"correct": "JK Rowling",
+				"level": "easy",
+				"points": "100"
+			},
+			{
+				"question": "Who was born on Krypton",
+				"answers": ["Aquaman", "Superman"],
+				"correct": "Superman",
+				"level": "medium",
+				"points": "200"
+			},
+			{
+				"question": "Who designed the first car?",
+				"answers": ["Karl Benz", "Henry Ford"],
+				"correct": "Karl Benz",
+				"level": "hard",
+				"points": "300"
+			}
+		]
+	},
+	{
+		"genre": "WHERE",
+		"questions": [
+			{
+				"question": "Where is Buckingham Palace?",
+				"answers": ["Richmond", "London"],
+				"correct": "London",
+				"level": "easy",
+				"points": "100"
+			},
+			{
+				"question": "Where is the Colosseum",
+				"answers": ["Rome", "Milan"],
+				"correct": "Rome",
+				"level": "medium",
+				"points": "200"
+			},
+			{
+				"question": "Where is Mount Kilamanjaro",
+				"answers": ["Zimbabwe", "Tanzania"],
+				"correct": "Tanzania",
+				"level": "hard",
+				"points": "300"
+			}
+		]
+	},
+	{
+		"genre": "WHEN",
+		"questions": [
+			{
+				"question": "When is Christmas?",
+				"answers": ["30th Dec", "24th/25th Dec"],
+				"correct": "24th/25th Dec",
+				"level": "easy",
+				"points": "100"
+			},
+			{
+				"question": "When was JFK Shot?",
+				"answers": ["1963", "1961"],
+				"correct": "1963",
+				"level": "hard",
+				"points": "300"
+			},
+			{
+				"question": "When was WW2?",
+				"answers": ["1932", "1941"],
+				"correct": "1941",
+				"level": "medium",
+				"points": "200"
+			}
+		]
+	},
+	{
+		"genre": "WHAT",
+		"questions": [
+			{
+				"question": "What is the capital of Saudi Arabia?",
+				"answers": ["Jeddah", "Riyadh"],
+				"correct": "Riyadh",
+				"level": "hard",
+				"points": "300"
+			},
+			{
+				"question": "What do Koalas eat?",
+				"answers": ["Straw", "Eucalypt"],
+				"correct": "Eucalypt",
+				"level": "medium",
+				"points": "200"
+			},
+			{
+				"question": "What is a kg short for",
+				"answers": ["Kilojoule", "Kilogram"],
+				"correct": "Kilogram",
+				"level": "easy",
+				"points": "100"
+			}
+		]
+	},
+	{
+		"genre": "HOW MANY",
+		"questions": [
+			{
+				"question": "How many players in a football team?",
+				"answers": ["15", "11"],
+				"correct": "11",
+				"level": "easy",
+				"points": "100"
+			},
+			{
+				"question": "How many seconds in an hour?",
+				"answers": ["36000", "3600"],
+				"correct": "3600",
+				"level": "medium",
+				"points": "200"
+			},
+			{
+				"question": "How many people in China?",
+				"answers": ["1.1 bil", "1.4 bil"],
+				"correct": "1.4 bil",
+				"level": "hard",
+				"points": "300"
+			}
+		]
+	}
+]
