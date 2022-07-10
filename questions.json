@@ -43,7 +43,7 @@
 				"points": "200"
 			},
 			{
-				"question": "Where is Mount Kilamanjaro",
+				"question": "Where is Mount Kilimanjaro",
 				"answers": ["Zimbabwe", "Tanzania"],
 				"correct": "Tanzania",
 				"level": "hard",
@@ -69,9 +69,9 @@
 				"points": "300"
 			},
 			{
-				"question": "When was WW2?",
-				"answers": ["1932", "1941"],
-				"correct": "1941",
+				"question": "When WW2 started?",
+				"answers": ["1939", "1945"],
+				"correct": "1939",
 				"level": "medium",
 				"points": "200"
 			}
@@ -121,7 +121,7 @@
 				"points": "200"
 			},
 			{
-				"question": "How many people in China?",
+				"question": "How many people are in China?",
 				"answers": ["1.1 bil", "1.4 bil"],
 				"correct": "1.4 bil",
 				"level": "hard",
